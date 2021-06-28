@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/g2.jpg);
+	background-size: 1450px;
+
+} 
+header{
+	background: black;
+	color:white;
+	padding: 8px 0px 6px 40px;
+	height: 40px;
+}
+header h1{
+	display: inline;
+	font-family: verdana;
+	font-size: 30px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	color: white;
+	margin-left: 12px;
+	padding-top: 10px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+#has{
+	font-family: verdana;
+}
+.red {
+	background: red;
+	padding: 30px 10px 17px 10px;
+}
+.margin{
+	height: 7px;
+	background-color: red;
+}
+.black:hover{
+	background-color: blue;
+	padding: 30px 10px 16px 10px;
+	font-style: bold;
+}
+h2{
+	font-family: verdana;
+	margin:0;
+	padding: 9% 5% 0% 55%;
+	font-size: 18px;
+	color: white; 
+}
+.h1st{
+	font-family: italic;
+	padding: 0.5% 0% 0% 55%;
+	font-size: 74px;
+	color: white;
+	background-color: #
+}
+.h1sty{
+	font-family: italic;
+	padding: 0% 0% 0% 55%;
+	font-size: 64px;
+	color: yellow;
+
+}
+.style{
+	margin: 0% 0% 0% 55%;
+	background-color: red;
+	color: white;
+	border: none;
+	height: 50px;
+	font-size: 30px;
+	cursor: pointer;
+	outline: none;
+	font-family: verdana;
+	font-weight: bold;
+}
+.about img{
+	background-size: 100px;
+	height: 10%;
+	width: 10%;
+}
+.about h2{
+	color: black;
+	font-size: 20px;
+	padding: 0% 55% 0% 0%;
+	background-color: white; 
+}
+.about p{
+	color: black;
+	background-image: url(../images/h3.jpg);
+	font-size: 20px;
+	width: 35%;
+	height: 40%;
+	background-size: 500PX;
+}
+#boxes{
+	margin-top: 20px;
+	background-color: white;
+}
+
+#boxes .box{
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .box img{
+	width: 90px; 
+}
+
+footer{
+	background-color: red;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	height: 50px;
+	bottom: 0px;
+	width: 100%;
+	position: relative;
+}
+.clue {
+	color: white;
+	text-align: center;
+}
+.clue img{
+	width: 40%;
+	height: 60%;
+}
+.blog{
+	background-image: url(../images/h2.jpg);
+	width: 100%;
+	height: 100%;
+	background-image: none;
+}
+.blog img{
+	background-size: 100px;
+	height: 40%;
+	width: 40%;
+}
+.blog img:hover {
+	transition-property: all;
+}
+.blog h1{
+	color: white;
+	font-size: 32px;
+ 	text-align: center;
+}
+.blog p{
+	font-size: 18px;
+	color: white;
+	text-align: left;
+	background-size: cover;
+}
+.qoutes h2{
+	color: white;
+	font-size: 20px;
+}
+tr{
+	color:white;
+}
+.inform{
+	color: yellow;
+	font-size: 25px;
+}
+.new h1{
+	color:white;
+	text-align: center;
+}
+.new p{
+	color:yellow;
+	text-align: center;
+	font-size: 20px;
+}
+.detail {
+	color: white;
+	font-size: 25px;
+}
+.container2{
+	text-align: center;
+	float: bottom;
+}

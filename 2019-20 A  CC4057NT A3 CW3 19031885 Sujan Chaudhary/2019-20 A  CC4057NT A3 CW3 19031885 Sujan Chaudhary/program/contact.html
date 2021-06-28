@@ -1,0 +1,148 @@
+<html>
+<head>
+
+	<title>Contact
+	</title>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+	
+
+</head>
+<body>
+	<section id="view">
+		<header>
+			<nav>
+		<h1>SUJAN CHAUDHARY</h1>
+		<ul id="has">
+			<li><a class="black" href="index.html">HOME</a></li>
+			<li><a class="black" href="blogs.html">BLOGS</a></li>	
+			<li><a class="black" href="research.html">RESEARCH</a></li>	
+			<li><a class="black" href="cv.html">CV</a></li>
+			<li><a class="red" href="contact.html">CONTACTUS</a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+<div class="margin"></div>
+			<section>
+			<div class="views">
+				<h1></h1>
+				<p><i>Fill up the given document</i></p>
+			</div>
+
+			<br><br><br><br><br>
+			<div class="container20"><br>
+		<p style="color: #fff; text-align: center; font-size: 25px;">
+			please fill the form to contact me:
+		</p><br>
+	<form onsubmit="validateForm()" name="messageForm">
+		<table class="container2">
+			<tr>
+				<td>
+					First Name:
+				</td>
+				<td><input type="text" name="fname"></td>
+			</tr><br>
+			<tr>
+				<td>
+					Last Name:
+				</td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+				<tr>
+				<td>
+					Email:
+				</td>
+				<td>
+					<input type="mail" placeholder="huuhasd@gmail.com" name="email">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					UserName:
+				</td>
+				<td>
+					<input type="text" name="username">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Password:
+				</td>
+				<td>
+					<input type="text" name="password">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Gender:
+				</td>
+				<td>
+					<input type="radio" name="gender">male<br>
+					<input type="radio" name="gender">female
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Phone no:
+				</td>
+				<td>
+					<select>
+						<option>977</option>
+						<option>978</option>
+						<OPTION>979</OPTION>
+						<OPTION>980</OPTION>	
+						
+					</select>
+					<input type="phone" placeholder="98********" name="phone">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="subject"><b>Message:</b></label><br>
+				</td>
+				<td>
+					<textarea name="message" rows="15" cols="40" placeholder="Write Something..."></textarea><br>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;">
+					<input type="submit" name="submit">
+				</td>
+			</tr>
+		</table>
+	</form>
+</div>
+	</div>
+</body>
+<script type="text/javascript">
+	function validateForm() {
+		var fname = document.forms["messageForm"]["fname"].value;
+		var lname = document.forms["messageForm"]["lname"].value;
+		var email = document.forms["messageForm"]["email"].value;
+		var username = document.forms["messageForm"]["username"].value;
+		var password = document.forms["messageForm"]["password"].value;
+		var gender = document.forms["messageForm"]["gender"].value;
+		var phone = document.forms["messageForm"]["phone"].value;
+		var message = document.forms["messageForm"]["message"].value;
+
+		if (fname =="" ||lname =="" ||email =="" ||username ==""||password =="" ||gender ==""||phone ==""||message =="") {
+			alert("Please fill the field");
+		}else{
+			
+			alert("Thank you "+fname+" "+lname);
+		}
+	}
+	
+</script>
+</section>
+<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<img src="images/h8.jpg"><br>
+				<a href="https://www.facebook.com/">Facebook</a>
+				<p>link of my facebook account.</p>
+			</div>
+</div></section>
+<footer><marquee>ALL COPYRIGHTS RESERVED @2019</marquee><br></footer>
+
+	</html>

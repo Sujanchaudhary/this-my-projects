@@ -1,0 +1,902 @@
+Script started on 2021-03-25 21:14:15+05:45 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="82" LINES="44"]
+[?2004h]0;sujanc@LAPTOP-D0DIEB8C: ~[;32m┌──([1;34msujanc㉿LAPTOP-D0DIEB8C[;32m)-[[0;1m~[;32m]
+
+[;32m└─[1;34m$[0m PS![K1=''$'p'w'd'[1P'[1P'[1P'P'W'D'>'?'[1P'
+[?2004l
+[?2004h/home/sujanc>MK[K[K[7mmkdir -p NBA/{Lakers,Miami,'Chicago Bulls','Brooklyn nets','Dallas Ma[27m[7mv[27m[7merick'}[27m[A[C[C[C[C[Cmkdir -p NBA/{Lakers,Miami,'Chicago Bulls','Brooklyn nets','Dallas Maverick'}
+[?2004l
+[?2004h/home/sujanc>TREE[K[K[K[Ktree
+[?2004l
+[01;34m.[00m
+├── 19031885cw2
+├── [01;34mDesktop[00m
+└── [01;34mNBA[00m
+    ├── [01;34mBrooklyn nets[00m
+    ├── [01;34mChicago Bulls[00m
+    ├── [01;34mDallas Maverick[00m
+    ├── [01;34mLakers[00m
+    └── [01;34mMiami[00m
+
+7 directories, 1 file
+[?2004h/home/sujanc>cd NBA/MIami[K[K[K[Kima[K[Kami
+[?2004l
+[?2004h/home/sujanc/NBA/Miami>pwd
+[?2004l
+/home/sujanc/NBA/Miami
+[?2004h/home/sujanc/NBA/Miami>touch [K1[K file [K1 file2
+[?2004l
+[?2004h/home/sujanc/NBA/Miami>cd ...[K
+[?2004l
+[?2004h/home/sujanc/NBA>rm -ri MIami[K[K[K[Kmi[K[Kiami
+[?2004l
+rm: descend into directory 'Miami'? y
+rm: remove regular empty file 'Miami/file2'? y
+rm: remove regular empty file 'Miami/file1'? y
+rm: remove directory 'Miami'? y
+[?2004h/home/sujanc/NBA>ls
+[?2004l
+[0m[01;34m'Brooklyn nets'[0m  [01;34m'Chicago Bulls'[0m  [01;34m'Dallas Maverick'[0m   [01;34mLakers[0m
+[?2004h/home/sujanc/NBA>echo =[K-e [K[Ka[Ke [K[Kam[K ""H"e"l"l"o"!" "I" "a"m" "b"i"f" "g"[1P"[1P"[1P"g" "f"a"n" "o"f" "N"a"[1P"B"A" "f"i"j"n"[1P"[1P"n"a"l"s" "/"n"1"4"<"(")"2)"+)"2)"
+[?2004l
+-a Hello! I am big fan of NBA finals /n14<(2+2)
+[?2004h/home/sujanc/NBA>echo -a "Hello! I am big fan of NBA finals /n14<(2+2)"[1P[1@e
+[?2004l
+Hello! I am big fan of NBA finals /n14<(2+2)
+[?2004h/home/sujanc/NBA>echo -e "Hello! I am big fan of NBA finals /n14<(2+2)"[1Pn14<(2+2)"|n14<(2+2)"[1Pn14<(2+2)"\n14<(2+2)"
+[?2004l
+Hello! I am big fan of NBA finals 
+14<(2+2)
+[?2004h/home/sujanc/NBA>pwd
+[?2004l
+/home/sujanc/NBA
+[?2004h/home/sujanc/NBA>cd Lakers
+[?2004l
+[?2004h/home/sujanc/NBA/Lakers>op[K[Kpwd
+[?2004l
+/home/sujanc/NBA/Lakers
+[?2004h/home/sujanc/NBA/Lakers>pwd; cd; pwd
+[?2004l
+/home/sujanc/NBA/Lakers
+/home/sujanc
+[?2004h/home/sujanc>pwd; cd; pwd[K; cd; pwd[Kcd Lakers[C/LakersN/LakersB/LakersA/Lakers
+[?2004l
+[?2004h/home/sujanc/NBA/Lakers>pwd; [C[C[C[1P ; [C c d [C . . ; [1P [1P . ; [C p w d ; [C c d [C . . ; [C p w d 
+[?2004l
+/home/sujanc/NBA/Lakers
+/home/sujanc/NBA
+/home/sujanc
+[?2004h/home/sujanc>cd; pwd
+[?2004l
+/home/sujanc
+[?2004h/home/sujanc>ls
+[?2004l
+19031885cw2  [0m[01;34mDesktop[0m  [01;34mNBA[0m
+[?2004h/home/sujanc>ls -a
+[?2004l
+[0m[01;34m.[0m              .bashrc           [01;34m.dbus[0m          .loop.sh.swp  .Xauthority
+[01;34m..[0m             .bashrc.original  [01;34mDesktop[0m        [01;34m.mozilla[0m      .xsession-errors
+19031885cw2    ..bashrc.swp      [01;34m.gnupg[0m         [01;34mNBA[0m           .zshrc
+.bash_history  [01;34m.cache[0m            .ICEauthority  .profile
+.bash_logout   [01;34m.config[0m           [01;34m.local[0m         [01;34m.vnc[0m
+[?2004h/home/sujanc>ls -al
+[?2004l
+total 472
+drwxr-xr-x 11 sujanc sujanc   4096 Mar 25 21:15 [0m[01;34m.[0m
+drwxr-xr-x  3 root   root     4096 Mar 20 22:17 [01;34m..[0m
+-rw-r--r--  1 sujanc sujanc      0 Mar 25 21:14 19031885cw2
+-rw-------  1 sujanc sujanc   5731 Mar 25 21:13 .bash_history
+-rw-r--r--  1 sujanc sujanc    220 Mar 20 22:17 .bash_logout
+-rw-r--r--  1 sujanc sujanc   4847 Mar 24 19:15 .bashrc
+-rw-r--r--  1 sujanc sujanc   3526 Mar 20 22:17 .bashrc.original
+-rw-r--r--  1 sujanc sujanc   1024 Mar 24 19:09 ..bashrc.swp
+drwxr-xr-x 10 sujanc sujanc   4096 Mar 25 21:13 [01;34m.cache[0m
+drwxr-xr-x 10 sujanc sujanc   4096 Mar 22 12:18 [01;34m.config[0m
+drwx------  3 sujanc sujanc   4096 Mar 20 23:25 [01;34m.dbus[0m
+drwxr-xr-x  2 sujanc sujanc   4096 Mar 20 22:50 [01;34mDesktop[0m
+drwx------  3 sujanc sujanc   4096 Mar 25 21:12 [01;34m.gnupg[0m
+-rw-------  1 sujanc sujanc   6030 Mar 25 21:12 .ICEauthority
+drwxr-xr-x  3 sujanc sujanc   4096 Mar 20 23:25 [01;34m.local[0m
+-rw-r--r--  1 sujanc sujanc   1024 Mar 22 12:21 .loop.sh.swp
+drwx------  5 sujanc sujanc   4096 Mar 25 21:13 [01;34m.mozilla[0m
+drwxr-xr-x  6 sujanc sujanc   4096 Mar 25 21:18 [01;34mNBA[0m
+-rw-r--r--  1 sujanc sujanc    807 Mar 20 22:17 .profile
+drwxr-xr-x  2 sujanc sujanc   4096 Mar 25 21:12 [01;34m.vnc[0m
+-rw-------  1 sujanc sujanc    872 Mar 25 21:12 .Xauthority
+-rw-------  1 sujanc sujanc 375990 Mar 25 21:13 .xsession-errors
+-rw-r--r--  1 sujanc sujanc   8456 Mar 20 22:17 .zshrc
+[?2004h/home/sujanc>cd; pwd; cd s[Kv[Kce[Kw2; pwd
+[?2004l
+/home/sujanc
+bash: cd: cw2: No such file or directory
+/home/sujanc
+[?2004h/home/sujanc>ls -R
+[?2004l
+.:
+19031885cw2  [0m[01;34mDesktop[0m  [01;34mNBA[0m
+
+./Desktop:
+
+./NBA:
+[01;34m'Brooklyn nets'[0m  [01;34m'Chicago Bulls'[0m  [01;34m'Dallas Maverick'[0m   [01;34mLakers[0m
+
+'./NBA/Brooklyn nets':
+
+'./NBA/Chicago Bulls':
+
+'./NBA/Dallas Maverick':
+
+./NBA/Lakers:
+[?2004h/home/sujanc>cd/N[K[K NA[KBA/Chicaa[Kgo BUll[K[K[Kulls'[1@'
+[?2004l
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat testx[KX
+[?2004l
+cat: testX: No such file or directory
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat testX[C[C[1PtestX>testX
+[?2004l
+aaabb AA aaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+^Z
+[1]+  Stopped                 cat > testX
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat>testX[KY
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+^Z
+[2]+  Stopped                 cat > testY
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat>testYXY[KZ
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+^Z
+[3]+  Stopped                 cat > testZ
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat>testZYX[C[C[C[C[1PtestX testX
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat testX[C[K[K[K[K[K[K[K[K[Kcat>testZYZ[Kcat>testZ[Kcat>testZ[C[1PtestZ testZ[C[C[C[C[C[Ky[KY
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat testY[KZ
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+[?2004h/home/sujanc/NBA/Chicago Bulls>[7mcp testX testY testZ ../'Brooklyn nets'[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp testX testY testZ ../'Brooklyn nets'
+[?2004l
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat Tes[K[K[KtestX testT[KY test [KZ
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat testX testY testZ>testResult
+[?2004l
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat testX testY testZ>testResult[1PtestResult[1PtestResult[1PestResult[1PtestResult[1PtestResult[1PestResult[1PtestResult[1PtestResult[1PestResult[1PtestResult[1PtestResult[1PestResult[1PtestResult[1PtestResult[1PestResult[1PtestResult[1PtestResult[1PestResult
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat test[]t][1P]X]Y]Z]
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+[?2004h/home/sujanc/NBA/Chicago Bulls>ls -l
+[?2004l
+total 16
+-rw-r--r-- 1 sujanc sujanc 216 Mar 25 21:36 testResult
+-rw-r--r-- 1 sujanc sujanc  72 Mar 25 21:30 testX
+-rw-r--r-- 1 sujanc sujanc  72 Mar 25 21:31 testY
+-rw-r--r-- 1 sujanc sujanc  72 Mar 25 21:32 testZ
+[?2004h/home/sujanc/NBA/Chicago Bulls>[7mchmod g-rwx,o-rwx,u-rwx testX[27mchmod g-rwx,o-rwx,u-rwx testX
+[?2004l
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat testX
+[?2004l
+cat: testX: Permission denied
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat testX[1PtestX>testX
+[?2004l
+bash: testX: Permission denied
+[?2004h/home/sujanc/NBA/Chicago Bulls>
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat>testX
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[Kchnod u[1P[1@m[C[C[C[C=rw tex[KstX
+[?2004l
+[?2004h/home/sujanc/NBA/Chicago Bulls>chmod u=rw testX[1P testX[1P testX[1P testX[1P testX[1PtestX[1P testX[1P testX[1P testX[1P testX[1P testXl testXs testX[C testX- testXl testX
+[?2004l
+-rw------- 1 sujanc sujanc 72 Mar 25 21:30 testX
+[?2004h/home/sujanc/NBA/Chicago Bulls>ls -l testX[1P testX[1P testX[1PtestX[1P testX[1P testXc testXa testXt testX
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat>testX
+[?2004l
+ddddd Eeeee
+^Z
+[4]+  Stopped                 cat > testX
+[?2004h/home/sujanc/NBA/Chicago Bulls>cat>testX[1PtestX testX
+[?2004l
+ddddd Eeeee
+[?2004h/home/sujanc/NBA/Chicago Bulls>cd ..
+[?2004l
+[?2004h/home/sujanc/NBA>ls -ld ''C'h'i'c'a'g'o' 'B'u'l'l'a'[1P's'[C
+[?2004l
+drwxr-xr-x 2 sujanc sujanc 4096 Mar 25 21:36 [0m[01;34m'Chicago Bulls'[0m
+[?2004h/home/sujanc/NBA>[7mchmod g-rwx,o-rwx,u-rwx 'Chicago Bulls'[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod g-rwx,o-rwx,u-rwx 'Chicago Bulls'
+[?2004l
+[?2004h/home/sujanc/NBA>ls -d[Kldchmod g-rwx,o-rwx,u-rwx 'Chicago Bulls'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+d--------- 2 sujanc sujanc 4096 Mar 25 21:36 [0m[01;34m'Chicago Bulls'[0m
+[?2004h/home/sujanc/NBA>ls -ld 'Chicago Bulls'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17@chmod g-rwx,o-rwx,u-rwx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@c[1@a[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C / t e s t X 
+[?2004l
+cat: 'Chicago Bulls/testX': Permission denied
+[?2004h/home/sujanc/NBA>touch [20@cat 'Chicago Bulls'/testX[C[1P[1P[1P[1@t[1@o[1@u[1@c[1@h[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@^[[3@[2~[1P[1P[1P[2P[1P[1P[1P[1P[C[1P f i l e 
+[?2004l
+touch: cannot touch 'Chicago Bulls/file': Permission denied
+[?2004h/home/sujanc/NBA>ls
+[?2004l
+[0m[01;34m'Brooklyn nets'[0m  [01;34m'Chicago Bulls'[0m  [01;34m'Dallas Maverick'[0m   [01;34mLakers[0m
+[?2004h/home/sujanc/NBA>[7mchmod u=rwx 'Chicago bulls'[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u=rwx 'Chicago bulls'
+[?2004l
+chmod: cannot access 'Chicago bulls': No such file or directory
+[?2004h/home/sujanc/NBA>chmod u=rwx 'Chicago bulls'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ktouch 'Chicago Bulls'/file 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcat 'Chicago Bulls'/testX[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -ld 'Chicago Bulls'
+[?2004l
+d--------- 2 sujanc sujanc 4096 Mar 25 21:36 [0m[01;34m'Chicago Bulls'[0m
+[?2004h/home/sujanc/NBA>ls -ld 'Chicago Bulls'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u=rwx 'Chicago bulls'[1Pulls'Bulls'
+[?2004l
+[?2004h/home/sujanc/NBA>chmod u=rwx 'Chicago Bulls'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+drwx------ 2 sujanc sujanc 4096 Mar 25 21:36 [0m[01;34m'Chicago Bulls'[0m
+[?2004h/home/sujanc/NBA>cat r[Ktest[K[K[K[K[K[K[K[Kls -ld 'Chicago Bulls'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@chmod u=rwx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u=rwx 'Chicago bulls'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ktouch 'Chicago Bulls'/file 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcat 'Chicago Bulls'/testX[C
+[?2004l
+ddddd Eeeee
+[?2004h/home/sujanc/NBA>cat 'Chicago Bulls'/testX [1P y 
+[?2004l
+cat: 'Chicago Bulls/testy': No such file or directory
+[?2004h/home/sujanc/NBA>cat 'Chicago Bulls'/testy [1P Y 
+[?2004l
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+[?2004h/home/sujanc/NBA>cat 'Chicago Bulls'/testY y[CX[Cy[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat 'Chicago Bulls'/testX 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -ld 'Chicago Bulls'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@chmod u=rwx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -ld[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u=rwx 'Chicago bulls'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ktouch 'Chicago Bulls'/file 
+[?2004l
+[?2004h/home/sujanc/NBA>ls ''C'H'i'[1P'[1P'h'i'c'a'g'o' 'B'u'l'l's'
+[?2004l
+file  testResult  testX  testY  testZ
+[?2004h/home/sujanc/NBA>cd Brooklyn nets'[C[1@'
+[?2004l
+[?2004h/home/sujanc/NBA/Brooklyn nets>grep bb testX
+[?2004l
+aaa[01;31m[Kbb[m[K Aaaaa
+[01;31m[Kbb[m[Kbcc B[01;31m[Kbb[m[K[01;31m[Kbb[m[K
+[?2004h/home/sujanc/NBA/Brooklyn nets>grep bb testX[C[1@ [1@-[1@v
+[?2004l
+AAAAA
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+[?2004h/home/sujanc/NBA/Brooklyn nets>grep -v bb testX[1P[1@n
+[?2004l
+[32m[K1[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa
+[32m[K3[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc B[01;31m[Kbb[m[K[01;31m[Kbb[m[K
+[?2004h/home/sujanc/NBA/Brooklyn nets>grep -n bb testX[C[K[K[K[K[K[K[1P bb[1P bbl bb[1@-[C[C[C[C* *
+[?2004l
+[35m[KtestX[m[K
+[35m[KtestY[m[K
+[35m[KtestZ[m[K
+[?2004h/home/sujanc/NBA/Brooklyn nets>grep -l bb *[1P[1@i
+[?2004l
+[35m[KtestX[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa
+[35m[KtestX[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb
+[35m[KtestX[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[KtestY[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa
+[35m[KtestY[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb
+[35m[KtestY[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[KtestZ[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa
+[35m[KtestZ[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb
+[35m[KtestZ[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[?2004h/home/sujanc/NBA/Brooklyn nets>grep -i bb *[C[1P *[1P *B *B *
+[?2004l
+[35m[KtestX[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa
+[35m[KtestX[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb
+[35m[KtestX[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[KtestY[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa
+[35m[KtestY[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb
+[35m[KtestY[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[KtestZ[m[K[36m[K:[m[Kaaa[01;31m[Kbb[m[K Aaaaa
+[35m[KtestZ[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbcc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb
+[35m[KtestZ[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[?2004h/home/sujanc/NBA/Brooklyn nets>grep -i BB *[1P[1@v[C[C[C[C[C[1P *[1P *b *[C[1P[1@c[C[Cb *[C
+[?2004l
+[35m[KtestX[m[K[36m[K:[m[K2
+[35m[KtestY[m[K[36m[K:[m[K2
+[35m[KtestZ[m[K[36m[K:[m[K2
+[?2004h/home/sujanc/NBA/Brooklyn nets>grep -c bb *[C[1P *[1P *[1P*[1P *[1P *' *' *[1@^[1@A
+[?2004l
+[35m[KtestX[m[K[36m[K:[m[K[01;31m[KA[m[KAAAA
+[35m[KtestY[m[K[36m[K:[m[K[01;31m[KA[m[KAAAA
+[35m[KtestZ[m[K[36m[K:[m[K[01;31m[KA[m[KAAAA
+[?2004h/home/sujanc/NBA/Brooklyn nets>grep '^A' *[C[C[K[K[1P'-'^'n'^' '^'[C[C[C testX
+[?2004l
+[32m[K1[m[K[36m[K:[m[Kaaabb Aaaaa
+[32m[K2[m[K[36m[K:[m[KAAAAA
+[32m[K3[m[K[36m[K:[m[Kbbbcc Bbbbb
+[32m[K4[m[K[36m[K:[m[KBBBBB
+[32m[K5[m[K[36m[K:[m[Kff-ff Ccccc
+[32m[K6[m[K[36m[K:[m[KCCCCC
+[32m[K7[m[K[36m[K:[m[Kcccdd Ddddd
+[32m[K8[m[K[36m[K:[m[KDDDDD
+[?2004h/home/sujanc/NBA/Brooklyn nets>als[Kias lsal=''l's' 'a'[1P'-'a'l'[1P'l'[C
+[?2004l
+[?2004h/home/sujanc/NBA/Brooklyn nets>alisa[K[Kas lsa=''l's' '-'a'[C
+[?2004l
+[?2004h/home/sujanc/NBA/Brooklyn nets>alias lsa='ls -a'l='ls -al'[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klsalo[K
+[?2004l
+total 20
+drwxr-xr-x 2 sujanc sujanc 4096 Mar 25 21:34 [0m[01;34m.[0m
+drwxr-xr-x 6 sujanc sujanc 4096 Mar 25 21:18 [01;34m..[0m
+-rw-r--r-- 1 sujanc sujanc   72 Mar 25 21:34 testX
+-rw-r--r-- 1 sujanc sujanc   72 Mar 25 21:34 testY
+-rw-r--r-- 1 sujanc sujanc   72 Mar 25 21:34 testZ
+[?2004h/home/sujanc/NBA/Brooklyn nets>lsalalias lsa='ls -a'lsal[K[C[K
+[?2004l
+[0m[01;34m.[0m  [01;34m..[0m  testX  testY  testZ
+[?2004h/home/sujanc/NBA/Brooklyn nets>lsalalias lsa='ls -a'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano bashr/bashr[1Pbashr.bashr[C[C[C[C[Cc
+[?2004l
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 5.4                          .bashrc                                   [1;81H(B[m
+[43d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[44d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^_(B[m Go To Line
+[2d[?12l[?25h[?25l[1;49H(B[0;7m*[81G(B[m
+[3d[?12l[?25h[?25l[A[?12l[?25h[?25l[42;27H(B[0;7m[ ^W = Ctrl+W    M-W = Alt+W ](B[m
+[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[44;1H[?1049l[23;0;0t
+[?1l>[?2004l
+
+Use "fg" to return to nano.
+
+[5]+  Stopped                 nano .bashrc
+[?2004h/home/sujanc/NBA/Brooklyn nets>alias
+[?2004l
+alias diff='diff --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -l'
+alias ls='ls --color=auto'
+alias lsa='ls -a'
+alias lsal='ls -al'
+alias noAcs='ls -a | grep ^[gtw] | wc -l'
+alias noAllf='ls -a | wc -l'
+alias noAsubsir='ls -aR | wc -l'
+[?2004h/home/sujanc/NBA/Brooklyn nets>cd
+[?2004l
+[?2004h/home/sujanc>cdaliasnano .bashrclsa[Kl
+[?2004l
+total 496
+drwxr-xr-x 11 sujanc sujanc   4096 Mar 25 21:15 [0m[01;34m.[0m
+drwxr-xr-x  3 root   root     4096 Mar 20 22:17 [01;34m..[0m
+-rw-r--r--  1 sujanc sujanc  20480 Mar 25 22:04 19031885cw2
+-rw-------  1 sujanc sujanc   5731 Mar 25 21:13 .bash_history
+-rw-r--r--  1 sujanc sujanc    220 Mar 20 22:17 .bash_logout
+-rw-r--r--  1 sujanc sujanc   4847 Mar 24 19:15 .bashrc
+-rw-r--r--  1 sujanc sujanc   3526 Mar 20 22:17 .bashrc.original
+-rw-r--r--  1 sujanc sujanc   1024 Mar 24 19:09 ..bashrc.swp
+drwxr-xr-x 10 sujanc sujanc   4096 Mar 25 21:13 [01;34m.cache[0m
+drwxr-xr-x 10 sujanc sujanc   4096 Mar 22 12:18 [01;34m.config[0m
+drwx------  3 sujanc sujanc   4096 Mar 20 23:25 [01;34m.dbus[0m
+drwxr-xr-x  2 sujanc sujanc   4096 Mar 20 22:50 [01;34mDesktop[0m
+drwx------  3 sujanc sujanc   4096 Mar 25 21:12 [01;34m.gnupg[0m
+-rw-------  1 sujanc sujanc   6030 Mar 25 21:12 .ICEauthority
+drwxr-xr-x  3 sujanc sujanc   4096 Mar 20 23:25 [01;34m.local[0m
+-rw-r--r--  1 sujanc sujanc   1024 Mar 22 12:21 .loop.sh.swp
+drwx------  5 sujanc sujanc   4096 Mar 25 21:13 [01;34m.mozilla[0m
+drwxr-xr-x  6 sujanc sujanc   4096 Mar 25 21:18 [01;34mNBA[0m
+-rw-r--r--  1 sujanc sujanc    807 Mar 20 22:17 .profile
+drwxr-xr-x  2 sujanc sujanc   4096 Mar 25 21:12 [01;34m.vnc[0m
+-rw-------  1 sujanc sujanc    872 Mar 25 21:12 .Xauthority
+-rw-------  1 sujanc sujanc 375990 Mar 25 21:13 .xsession-errors
+-rw-r--r--  1 sujanc sujanc   8456 Mar 20 22:17 .zshrc
+[?2004h/home/sujanc>lsal[2Pcdlsal[Klsal[K
+[?2004l
+[0m[01;34m.[0m              .bashrc           [01;34m.dbus[0m          .loop.sh.swp  .Xauthority
+[01;34m..[0m             .bashrc.original  [01;34mDesktop[0m        [01;34m.mozilla[0m      .xsession-errors
+19031885cw2    ..bashrc.swp      [01;34m.gnupg[0m         [01;34mNBA[0m           .zshrc
+.bash_history  [01;34m.cache[0m            .ICEauthority  .profile
+.bash_logout   [01;34m.config[0m           [01;34m.local[0m         [01;34m.vnc[0m
+[?2004h/home/sujanc>unalias la[Ksal
+[?2004l
+[?2004h/home/sujanc>unalias lsal[C[K
+[?2004l
+[?2004h/home/sujanc>alias
+[?2004l
+alias diff='diff --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -l'
+alias ls='ls --color=auto'
+alias noAcs='ls -a | grep ^[gtw] | wc -l'
+alias noAllf='ls -a | wc -l'
+alias noAsubsir='ls -aR | wc -l'
+[?2004l
+[?2004h]0;sujanc@LAPTOP-D0DIEB8C: ~[;32m┌──([1;34msujanc㉿LAPTOP-D0DIEB8C[;32m)-[[0;1m~[;32m]
+
+[;32m└─[1;34m$[0m source ~/.bashrc
+[C[C[C[C[4Pnano .bashrc
+[C[C[C[Csource ~/.bashrc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kalias
+[?2004l
+alias diff='diff --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -l'
+alias ls='ls --color=auto'
+alias lsa='ls -a'
+alias lsal='ls -al'
+alias noAcs='ls -a | grep ^[gtw] | wc -l'
+alias noAllf='ls -a | wc -l'
+alias noAsubsir='ls -aR | wc -l'
+[?2004h]0;sujanc@LAPTOP-D0DIEB8C: ~[;32m┌──([1;34msujanc㉿LAPTOP-D0DIEB8C[;32m)-[[0;1m~[;32m]
+
+[;32m└─[1;34m$[0m aliassource ~/.bashrc
+[C[C[C[C[4Pnano .bashrc[K[K[K[K[K[K[K[K[K[K[K[Klsal
+[?2004l
+total 548
+drwxr-xr-x 11 sujanc sujanc   4096 Mar 25 22:12 [0m[01;34m.[0m
+drwxr-xr-x  3 root   root     4096 Mar 20 22:17 [01;34m..[0m
+-rw-r--r--  1 sujanc sujanc  73728 Mar 25 22:12 19031885cw2
+-rw-------  1 sujanc sujanc   5731 Mar 25 21:13 .bash_history
+-rw-r--r--  1 sujanc sujanc    220 Mar 20 22:17 .bash_logout
+-rw-r--r--  1 sujanc sujanc   4746 Mar 25 22:12 .bashrc
+-rw-r--r--  1 sujanc sujanc   3526 Mar 20 22:17 .bashrc.original
+-rw-r--r--  1 sujanc sujanc   1024 Mar 25 22:12 ..bashrc.swp
+drwxr-xr-x 10 sujanc sujanc   4096 Mar 25 21:13 [01;34m.cache[0m
+drwxr-xr-x 10 sujanc sujanc   4096 Mar 22 12:18 [01;34m.config[0m
+drwx------  3 sujanc sujanc   4096 Mar 20 23:25 [01;34m.dbus[0m
+drwxr-xr-x  2 sujanc sujanc   4096 Mar 20 22:50 [01;34mDesktop[0m
+drwx------  3 sujanc sujanc   4096 Mar 25 21:12 [01;34m.gnupg[0m
+-rw-------  1 sujanc sujanc   6030 Mar 25 21:12 .ICEauthority
+drwxr-xr-x  3 sujanc sujanc   4096 Mar 20 23:25 [01;34m.local[0m
+-rw-r--r--  1 sujanc sujanc   1024 Mar 22 12:21 .loop.sh.swp
+drwx------  5 sujanc sujanc   4096 Mar 25 21:13 [01;34m.mozilla[0m
+drwxr-xr-x  6 sujanc sujanc   4096 Mar 25 21:18 [01;34mNBA[0m
+-rw-r--r--  1 sujanc sujanc    807 Mar 20 22:17 .profile
+drwxr-xr-x  2 sujanc sujanc   4096 Mar 25 21:12 [01;34m.vnc[0m
+-rw-------  1 sujanc sujanc    872 Mar 25 21:12 .Xauthority
+-rw-------  1 sujanc sujanc 375990 Mar 25 21:13 .xsession-errors
+-rw-r--r--  1 sujanc sujanc   8456 Mar 20 22:17 .zshrc
+[?2004h]0;sujanc@LAPTOP-D0DIEB8C: ~[;32m┌──([1;34msujanc㉿LAPTOP-D0DIEB8C[;32m)-[[0;1m~[;32m]
+
+[?2004h]0;sujanc@LAPTOP-D0DIEB8C: ~[;32m┌──([1;34msujanc㉿LAPTOP-D0DIEB8C[;32m)-[[0;1m~[;32m]
+
+[;32m└─[1;34m$[0m alias
+[?2004l
+alias diff='diff --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -l'
+alias ls='ls --color=auto'
+alias lsa='ls -a'
+alias lsal='ls -al'
+alias noAcs='ls -a | grep ^[gtw] | wc -l'
+alias noAllf='ls -a | wc -l'
+alias noAsubsir='ls -1|wc -l'
+[?2004h]0;sujanc@LAPTOP-D0DIEB8C: ~[;32m┌──([1;34msujanc㉿LAPTOP-D0DIEB8C[;32m)-[[0;1m~[;32m]
+
+[;32m└─[1;34m$[0m noAsubsur
+[?2004l
+bash: noAsubsur: command not found
+[?2004h]0;sujanc@LAPTOP-D0DIEB8C: ~[;32m┌──([1;34msujanc㉿LAPTOP-D0DIEB8C[;32m)-[[0;1m~[;32m]
+
+[;32m└─[1;34m$[0m noAsubsur[1Prir
+[?2004l
+3
+[?2004h]0;sujanc@LAPTOP-D0DIEB8C: ~[;32m┌──([1;34msujanc㉿LAPTOP-D0DIEB8C[;32m)-[[0;1m~[;32m]
+
+[;32m└─[1;34m$[0m noAsubsir[K[K[K[K[K[K[K[K[Ksuja[K[K[K[KnoAsubsur
+[C[C[C[C[4Paliassource ~/.bashrc
+[C[C[C[C[4Pnano .bashrc
+[C[C[C[C[C[C[K.cache -u ~/.gvfs
+[C[C[C[C[4@fusermount[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[12PnoAsubsir[3Pllf[1Pcs='ls -a | grep ^[gtw] | wc -l'
+[C[C[C[Calias[KPS1='$PWD>'
+[C[C[C[Csource ~/.bashrc
+[C[C[C[C[5PPS1='$PWD>'
+[?2004l
+[?2004h/home/sujanc>PS1='$PWD>'[KnoAsubsur[4PaliasnoAsubsur[1Prir
+[?2004l
+3
+Script started on 2021-04-01 17:51:31+05:45 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="50"]
+[?2004h]0;sujanc@LAPTOP-D0DIEB8C: ~[;32m┌──([1;34msujanc㉿LAPTOP-D0DIEB8C[;32m)-[[0;1m~[;32m]
+'
+[C[C[C[Ccat 19031885cw2
+[C[C[C[C[4PPS1='$PWD>'
+[?2004l
+[?2004h/home/sujanc>PS1='$PWD>'nano test1.shbash test1.sh sujan 12
+[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pnano test1.shbash test1.sh sujan 12
+[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pnano test1.shbash test1.sh sujan 12
+[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pnano test1.sh[C[K[K[K[K[K[K[K[K.bashrc
+[?2004l
+[?2004h[?1049h[22;0;0t[1;50r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[48d(B[0;7mFile .bashrc is being edited by sujanc (with nano 5.4, PID 29); open anyway?                                                                                                                                       [49;1H Y(B[m Yes
+[50d(B[0;7m N(B[m No[50;17H(B[0;7m^C(B[m Cancel[48;77H[?12l[?25h[?25l[48;98H[1K (B[0;7m[ Reading... ](B[m[K[48;97H(B[0;7m[ Read 140 lines ](B[m[H(B[0;7m  GNU nano 5.4                                                                                          .bashrc                                                                                                    [1;210H(B[m
+[49d(B[0;7m^G(B[m Help[49;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[49;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[49;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[49;188H(B[0;7m^◀(B[m Prev Word
+[50d(B[0;7m^X(B[m Exit[50;17H (B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[50;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[50;120H(B[0;7mM-6(B[m Copy[50;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next[50;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word
+[2d[36m# ~/.bashrc: executed by bash(1) for non-login shells.
+[3d# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+[4d# for examples
+[6d# If not running interactively, don't do anything
+[7d[32mcase[39m(B[m (B[0;1m[31m$-[39m(B[m [32min[8;5H[39m(B[m*i*[32m)[39m(B[m [32m;;[9;7H[39m(B[m*[32m)[39m(B[m [32mreturn;;
+[10desac
+[12d[36m# don't put duplicate lines or lines starting with space in the history.
+[13d# See bash(1) for more options
+[14d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth
+[16d[36m# append to the history file, don't overwrite it
+[17d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend
+[19d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+[20d[39m(B[mHISTSIZE[32m=[39m(B[m1000
+[21dHISTFILESIZE[32m=[39m(B[m2000
+[23d[36m# check the window size after each command and, if necessary,
+[24d# update the values of LINES and COLUMNS.
+[25d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize
+[27d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will
+[28d# match all files and zero or more directories and subdirectories.
+[29d#shopt -s globstar
+[31d# make less more friendly for non-text input files, see lesspipe(1)
+[32d#[ -x /usr/bin/lesspipe ] && eval (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"
+[34d(B[0m[36m# set variable identifying the chroot you work in (used in the prompt below)
+[35d[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[36;5H[39m(B[mdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)
+[37dfi
+[39d[36m# set a fancy prompt (non-color, unless we know we (B[0;1m[33m"want"(B[0m[36m color)
+[40d[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[41;5H[39m(B[mxterm-color[32m|[39m(B[m*-256color[32m)[39m(B[m color_prompt[32m=[39m(B[myes[32m;;
+[42desac
+[44d[36m# uncomment for a colored prompt, if the terminal has the capability; turned
+[45d# off by default to not distract the user: the focus in a terminal window
+[46d# should be on the output of commands, not on the prompt
+[47d[39m(B[mforce_color_prompt[32m=[39m(B[myes
+[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[25d[?12l[?25h[?25l[26d[?12l[?25h[?25l[27d[?12l[?25h[?25l[48d[K[28d[?12l[?25h[?25l[29d[?12l[?25h[?25l[30d[?12l[?25h[?25l[31d[?12l[?25h[?25l[32d[?12l[?25h[?25l[33d[?12l[?25h[?25l[34d[?12l[?25h[?25l[35d[?12l[?25h[?25l[36d[?12l[?25h[?25l[37d[?12l[?25h[?25l[38d[?12l[?25h[?25l[39d[?12l[?25h[?25l[40d[?12l[?25h[?25l[41d[?12l[?25h[?25l[42d[?12l[?25h[?25l[43d[?12l[?25h[?25l[44d[?12l[?25h[?25l[45d[?12l[?25h[?25l[46d[?12l[?25h[?25l[47d[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$force_color_prompt"[39m(B[m [32m];[39m(B[m [32mthen
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/tput [32m][39m(B[m [32m&&[39m(B[m tput setaf 1 [32m>&[39m(B[m/dev/null[32m;[39m(B[m [32mthen
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;8H[36m[1K # We have color support; assume it's compliant with Ecma-48
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;8H[36m[1K # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;8H[36m[1K # a case would tend to support setf rather than setaf.)
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;9Hcolor_prompt[32m=[39m(B[myes
+[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32melse
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;9Hcolor_prompt[32m=
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mfi
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mfi
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$color_prompt"[39m(B[m [32m=[39m(B[m yes [32m];[39m(B[m [32mthen
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;4H[36m # override default virtualenv indicator in prompt
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5HVIRTUAL_ENV_DISABLE_PROMPT[32m=[39m(B[m1
+[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Hprompt_color[32m=(B[0;1m[33m'\[\033[;32m\]'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Hinfo_color[32m=(B[0;1m[33m'\[\033[1;34m\]'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Hprompt_symbol[32m=[39m(B[m㉿
+[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$EUID"[39m(B[m [32m-eq[39m(B[m 0 [32m];[39m(B[m [32mthen[36m # Change prompt colors for root user
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;9Hprompt_color[32m=(B[0;1m[33m'\[\033[;94m\]'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;9Hinfo_color[32m=(B[0;1m[33m'\[\033[1;31m\]'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;9Hprompt_symbol[32m=[39m(B[m💀
+[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mfi
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5HPS1[32m=(B[0;1m[31m$prompt_color[33m'┌──${debian_chroot:+($debian_chroot)──}${VIRTUAL_ENV:+(\[\033[0;1m\]$(basename $VIRTUAL_ENV)'[31m$prompt_color[33m')}('[31m$info_color[33m'\u${prompt_symbol}\h'[31m$prompt_color[33m')-[\[\033[0;1m\]\w'[31m$prompt_col[39m(B[0;7m>[47;1H(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;4H[36m # BackTrack red prompt
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;4H[36m #PS1=(B[0;1m[33m'${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV)) }${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32melse
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mfi
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H(B[0;1m[34munset[39m(B[m color_prompt force_color_prompt
+[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m# If this is an xterm set the title to user@host:dir
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1Hxterm*[32m|[39m(B[mrxvt*[32m)
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5HPS1[32m=(B[0;1m[33m"\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32m;;
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H*[32m)
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32m;;
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mesac
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m# enable color support of ls, less and man, and also add handy aliases
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/dircolors [32m];[39m(B[m [32mthen
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Htest(B[0;1m[35m -r[39m(B[m ~/.dircolors [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b ~/.dircolors)"[39m(B[m [32m||[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b)"
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Halias ls[32m=(B[0;1m[33m'ls --color=auto'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;4H[36m #alias dir=(B[0;1m[33m'dir --color=auto'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;4H[36m #alias vdir=(B[0;1m[33m'vdir --color=auto'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Halias (B[0;1m[34mgrep(B[0m[32m=(B[0;1m[33m'grep --color=auto'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Halias fgrep[32m=(B[0;1m[33m'fgrep --color=auto'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Halias egrep[32m=(B[0;1m[33m'egrep --color=auto'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Halias diff[32m=(B[0;1m[33m'diff --color=auto'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5Halias ip[32m=(B[0;1m[33m'ip --color=auto'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mexport[39m(B[m LESS_TERMCAP_mb[32m=$(B[0;1m[33m'\E[1;31m'[39m(B[m    [36m # begin blink
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mexport[39m(B[m LESS_TERMCAP_md[32m=$(B[0;1m[33m'\E[1;36m'[39m(B[m    [36m # begin bold
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mexport[39m(B[m LESS_TERMCAP_me[32m=$(B[0;1m[33m'\E[0m'[43G(B[0m[36m # reset bold/blink
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mexport[39m(B[m LESS_TERMCAP_so[32m=$(B[0;1m[33m'\E[01;33m'[39m(B[m   [36m # begin reverse video
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mexport[39m(B[m LESS_TERMCAP_se[32m=$(B[0;1m[33m'\E[0m'[43G(B[0m[36m # reset reverse video
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mexport[39m(B[m LESS_TERMCAP_us[32m=$(B[0;1m[33m'\E[1;32m'[39m(B[m    [36m # begin underline
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H[32mexport[39m(B[m LESS_TERMCAP_ue[32m=$(B[0;1m[33m'\E[0m'[43G(B[0m[36m # reset underline
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mfi
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m# colored GCC warnings and errors
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m#export GCC_COLORS=(B[0;1m[33m'error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m# some more ls aliases
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1Halias ll[32m=(B[0;1m[33m'ls -l'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1Halias la[32m=(B[0;1m[33m'ls -A'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1Halias l[32m=(B[0;1m[33m'ls -CF'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m# new code[39m[42m 
+[49m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1Halias lsal[32m=(B[0;1m[33m'ls -al'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1Halias lsa[32m=(B[0;1m[33m'ls -a'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1Halias noAllf[32m=(B[0;1m[33m'ls -a | wc -l'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1Halias noAsubsir[32m=(B[0;1m[33m'ls -1|wc -l'
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1Halias noAcs[32m=(B[0;1m[33m'ls -a | grep ^[gtw] | wc -l'
+[39m(B[m[?12l[?25h[?25l[A[?12l[?25h[?25l[47d[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m# Alias definitions.
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m# You may want to put all your additions into a separate file like
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m# ~/.bash_aliases, instead of adding them here directly.
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[36m# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m ~/.bash_aliases [32m];[39m(B[m [32mthen
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;5H. ~/.bash_aliases
+[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[32mfi
+[39m(B[m[?12l[?25h[?25l7[2;48r8[48d
+[1;50r[47;1H[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25la[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[36d[?12l[?25h[?25lf[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[37d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[1;113H(B[0;7m*[210G(B[m[37;22H[1P[?12l[?25h[?25l(B[0;1m[33ms|wc -l'[23G[39m(B[m[?12l[?25h[?25l[1P[?12l[?25h[?25l(B[0;1m[33ma|wc -l'[23G[39m(B[m[?12l[?25h[?25l(B[0;1m[33mR|wc -l'[24G[39m(B[m[?12l[?25h[?25l(B[0;1m[33m |wc -l'[25G[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[33m wc -l'[27G[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[48;99H(B[0;7m[ Writing... ](B[m[1;113H(B[0;7m [210G(B[m[48;97H(B[0;7m[ Wrote 140 lines ](B[m[37;28H[?12l[?25h[?25l[48;97H  (B[0;7m[ Writing... ](B[m[K[1;210H[48;97H(B[0;7m[ Wrote 140 lines ](B[m[37;28H[?12l[?25h[?25l[48;97H  (B[0;7m[ Writing... ](B[m[K[1;210H[48;97H(B[0;7m[ Wrote 140 lines ](B[m[37;28H[?12l[?25h[?25l[48;97H  (B[0;7m[ Writing... ](B[m[K[1;210H[48;97H(B[0;7m[ Wrote 140 lines ](B[m[37;28H[?12l[?25h[?25l[C[?12l[?25h[?25l[48;97H  (B[0;7m[ Writing... ](B[m[K[1;210H[48;97H(B[0;7m[ Wrote 140 lines ](B[m[37;29H[?12l[?25h[?25l[48;97H  (B[0;7m[ Writing... ](B[m[K[1;210H[48;97H(B[0;7m[ Wrote 140 lines ](B[m[37;29H[?12l[?25h[?25l[48;97H  (B[0;7m[ Writing... ](B[m[K[1;210H[48;97H(B[0;7m[ Wrote 140 lines ](B[m[37;29H[?12l[?25h[?25l[?12l[?25h[50;1H[?1049l[23;0;0t
+[?1l>[?2004l
+
+Use "fg" to return to nano.
+
+[1]+  Stopped                 nano .bashrc
+[?2004h/home/sujanc>nano .bashrc[K[K[K[K[K[K[K[K[K[K[K[Kno[K[Kalias][K
+[?2004l
+alias diff='diff --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -l'
+alias ls='ls --color=auto'
+alias lsa='ls -a'
+alias lsal='ls -al'
+alias noAcs='ls -a | grep ^[gtw] | wc -l'
+alias noAllf='ls -a | wc -l'
+alias noAsubsir='ls -1|wc -l'
+[;32m└─[1;34m$[0m source ~/.bashrc
+[?2004l
+alias diff='diff --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -l'
+alias ls='ls --color=auto'
+alias lsa='ls -a'
+alias lsal='ls -al'
+alias noAcs='ls -a | grep ^[gtw] | wc -l'
+alias noAllf='ls -a | wc -l'
+alias noAsubsir='ls -aR | wc -l'
+[?2004h/home/sujanc>noAsubsir
+[?2004l
+901
+[?2004h/home/sujanc>[?2004l
+
+Script done on 2021-04-01 17:56:25+05:45 [COMMAND_EXIT_CODE="1"]
